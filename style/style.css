@@ -1,0 +1,220 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  color: #a8b9c0;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 110px;
+  height: 40px;
+  background-color: #ff3150;
+  color: #ffc501;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 20px;
+  border: none;
+}
+
+.button-header {
+  width: 190px;
+  height: 45px;
+}
+
+.header {
+  background-color: #19283f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-main {
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-main-text {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-block-img {
+  padding: 0 20px;
+  border-left: 1px solid #00c6bf;
+}
+
+.nav-block-item {
+  margin-right: 30px;
+}
+
+.nav-block-item:hover {
+  color: #00c7c0;
+}
+
+.h1-like {
+  color: #f0f8fb;
+  font-family: Roboto;
+  font-size: 51px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.header-text {
+  margin: 10px 0 30px;
+}
+
+.good {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 720px;
+}
+
+.h2-like {
+  color: #1a2940;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.border {
+  width: 150px;
+  height: 1px;
+  background-color: #00c6bf;
+}
+
+.good-sub-logo {
+  margin: 50px 0;
+}
+
+.good-block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.good-block-item {
+  width: 299px;
+  height: 355px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.good-block-item-img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.good-item-img {
+  height: 194px;
+}
+
+.good-item-icon {
+  position: absolute;
+  content: '';
+  bottom: 0;
+}
+
+.h3-like {
+  color: #ffc501;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
